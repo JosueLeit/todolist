@@ -1,0 +1,28 @@
+.task {
+  width: 100%;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.task p {
+  color: var(--gray-100);
+  line-height: 1.18rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-right: auto;
+}
+
+.checkContainer {
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 2px solid;
+  color: var(--blue);
+  border-radius: 50%;
+  background: none;
+}
