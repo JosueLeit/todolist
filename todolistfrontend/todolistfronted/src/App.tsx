@@ -10,18 +10,7 @@ export interface ITask {
 }
 
 function App() {
-  const [tasks, setTasks] = useState<ITask[]>([
-    {
-      id: "teste",
-      title: "teste",
-      isCompleted: true,
-    },
-    {
-      id: "teste2",
-      title: "teste2",
-      isCompleted: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState<ITask[]>([]);
 
   function addTask(taskTitle: string) {
     setTasks([
